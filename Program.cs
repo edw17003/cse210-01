@@ -8,7 +8,7 @@ List<string> grid = new List<string>{"1", "2", "3", "4", "5", "6", "7", "8", "9"
 char player1 = 'x';
 char player2 = 'o';
 int selection = 0;
-string winner = "v";
+string winner = "The cat";
 
 for (int i = 0; i < 9; i++)
 {
@@ -82,4 +82,4 @@ for (int i = 0; i < 9; i++)
     }
 }
 
-Console.WriteLine("Player " + winner + " wins!\n");
+Console.WriteLine(winner + " wins!\n");
